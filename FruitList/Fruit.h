@@ -15,4 +15,6 @@
 @property NSURL *thumb;
 @property NSURL *img;
 
++ (instancetype)fruitWithDictionary: (NSDictionary *)dictionary;
+
 @end

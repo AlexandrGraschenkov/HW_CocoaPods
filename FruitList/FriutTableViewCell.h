@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *fruitImage;
 @property (weak, nonatomic) IBOutlet UILabel *fruitNameLabel;
+@property NSURLSessionDataTask *task;
 
 @end
