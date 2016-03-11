@@ -53,8 +53,6 @@
             cell.fruitImage.image = img;
             [self.tasks removeObject:task];
             
-            if(cell.task.state == NSURLSessionTaskStateCompleted) {
-            }
             if (self.allTasksComplete) {
                 [UIApplication sharedApplication].networkActivityIndicatorVisible = false;
             }
@@ -82,12 +80,14 @@
         @catch (NSException *exception) {
             hud.labelText = @"Error";
         }
+        
         if (!error) {
             for (NSDictionary *d in jsonObjects) {
                 Fruit *fruit = [Fruit fruitWithDictionary:d];
                 [self.fruits addObject:fruit];
             }
         }
+        
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.tableView reloadData];
             [hud hide:YES];
