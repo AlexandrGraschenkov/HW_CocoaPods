@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05013B451CAE5F16004CD8DF /* TableVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05013B441CAE5F16004CD8DF /* TableVIewCell.m */; };
 		146C05BE1C761F3F00A99A82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146C05BD1C761F3F00A99A82 /* main.m */; };
 		146C05C11C761F3F00A99A82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146C05C01C761F3F00A99A82 /* AppDelegate.m */; };
 		146C05CA1C761F3F00A99A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146C05C81C761F3F00A99A82 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05013B431CAE5F16004CD8DF /* TableVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVIewCell.h; sourceTree = "<group>"; };
+		05013B441CAE5F16004CD8DF /* TableVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVIewCell.m; sourceTree = "<group>"; };
 		146C05B91C761F3F00A99A82 /* PairWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146C05BD1C761F3F00A99A82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		146C05BF1C761F3F00A99A82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				146C05F31C7620E400A99A82 /* TableVC.m */,
 				146C05F51C7621DF00A99A82 /* AnotherVC.h */,
 				146C05F61C7621DF00A99A82 /* AnotherVC.m */,
+				05013B431CAE5F16004CD8DF /* TableVIewCell.h */,
+				05013B441CAE5F16004CD8DF /* TableVIewCell.m */,
 				146C05C81C761F3F00A99A82 /* Main.storyboard */,
 				146C05CB1C761F3F00A99A82 /* Assets.xcassets */,
 				146C05CD1C761F3F00A99A82 /* LaunchScreen.storyboard */,
@@ -356,6 +361,7 @@
 				146C05F71C7621DF00A99A82 /* AnotherVC.m in Sources */,
 				146C05F41C7620E400A99A82 /* TableVC.m in Sources */,
 				146C05C11C761F3F00A99A82 /* AppDelegate.m in Sources */,
+				05013B451CAE5F16004CD8DF /* TableVIewCell.m in Sources */,
 				146C05BE1C761F3F00A99A82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
